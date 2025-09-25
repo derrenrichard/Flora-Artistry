@@ -1,0 +1,92 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.form-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.form-field {
+    -fx-padding: 10px;
+    -fx-font-size: 18px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #fff;
+    -fx-border-color: #ccc;
+}
+
+.button {
+    -fx-background-color: #6200ea;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-padding: 15px;
+    -fx-cursor: hand;
+    -fx-font-size: 18px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #3700b3;
+}
+
+.grid {
+    -fx-background-color: #ffffff;
+    -fx-padding: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 20, 0, 0, 10);
+}
+/* Style for the MenuBar */
+.menu-bar {
+    -fx-background-color: #3700b3; /* Deep blue background */
+    -fx-padding: 5px; /* Padding around the menu bar */
+}
+
+/* Style for the Menu */
+.menu {
+    -fx-font-size: 28px; /* Font size */
+    -fx-font-weight: bold; /* Bold font */
+}
+
+/* Ensure the menu text is white */
+.menu > .label {
+    -fx-text-fill: #fff; /* White text */
+}
+
+/* Style for Menu item */
+.menu-item {
+    -fx-font-size: 20px;
+    -fx-padding: 5px 10px;
+}
+
+
+
+
+
+.table-view {
+    -fx-border-color: #3700b3;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, #3700b3, 10, 0, 0, 0);
+}
+
+.table-view .table-column {
+    -fx-font-size: 24px;
+}
+
+.table-row-cell .text {
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+}
+
+.table-row-cell:nth-child(odd) {
+    -fx-background-color: #ffffff;
+}
+
+.table-row-cell:nth-child(even) {
+    -fx-background-color: #e0e0ff;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #6e34e1;
+    -fx-text-fill: white;
+}
